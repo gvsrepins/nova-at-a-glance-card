@@ -1,7 +1,7 @@
 <template>
     <card class="flex flex-col">
         <div class="px-3 py-3">
-            <h1 class="text-2xl text-80 font-light">At A Glance</h1>
+            <h1 class="text-2xl text-80 font-light"> {{ __('At A Glance') }}</h1>
         </div>
         <div class="flex flex-wrap px-3 pb-3 w-full">
             <div class="w-1/2 pb-2" v-for="resource in resources" :key="resource">
